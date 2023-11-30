@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./Component/Navbar";
 import Hero from "./Component/Hero";
 import Analytics from "./Component/Analytics";
+import Newsletter from "./Component/Newsletter";
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Navbar/>
       < Hero/>
       <Analytics/>
+      <Newsletter/>
     </div>
   );
 }
